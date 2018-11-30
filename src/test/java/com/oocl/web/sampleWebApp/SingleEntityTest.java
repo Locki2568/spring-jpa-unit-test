@@ -47,7 +47,6 @@ public class SingleEntityTest {
         entityManager.clear();
         SingleEntity singleEntityFromRepo = singleEntityRepository.getOne(2L);
 
-
         // Then assert equal should return true
         assertEquals("HI", singleEntityFromRepo.name);
     }
